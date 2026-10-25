@@ -1,0 +1,41 @@
+# Local virtual environments and Python caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.vscode/
+.idea/
+
+# Demo runs, exported files, captures and temporary output
+runs/
+demo_outputs/
+recording/
+*.log
+*.mp4
+*.webm
+.DS_Store
+Thumbs.db
+*.lck
+*.kicad_prl
+*.kicad_pcb-bak
+*~
+
+# Keep the curated read-only reference design, ignore all other outputs
+outputs/*
+!outputs/afe.kicad_pcb
+!outputs/afe.kicad_sch
+!outputs/afe.kicad_pro
+!outputs/afe.kicad_dru
+!outputs/fp-lib-table
+!outputs/PCBFlow.pretty/
+!outputs/PCBFlow.pretty/*.kicad_mod

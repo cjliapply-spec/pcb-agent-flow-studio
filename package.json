@@ -1,0 +1,10 @@
+{
+  "name": "pcb-agent-flow-studio",
+  "private": true,
+  "version": "2.0.0-flow",
+  "description": "Offline PCB flow demo: constrained natural-language intent and KiCad schematic to four-layer PCB",
+  "scripts": {
+    "test": "node --test tests/engine.test.js",
+    "build": "python build.py"
+  }
+}

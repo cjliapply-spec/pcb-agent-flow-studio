@@ -1,0 +1,4 @@
+# Optional: only for independent geometry audit and browser regression checks.
+# Opening OPEN_DEMO.html and starting server.py need no pip packages.
+shapely>=2.0,<3
+playwright>=1.50,<2
